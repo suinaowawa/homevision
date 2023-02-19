@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "home-vision"
+version = "0.1.0"
+description = "This release package provides a comprehensive solution for users to view processed computer vision results from multiple RTSP streams using WebRTC technology. With this tool, users can easily add their computer vision solutions to the system and start analyzing the video streams in real-time.\u001b[D\u001b[D\u001b[D\u001b[\u001b[A\u001b[A\u001b[B\u001b[B"
+authors = ["luna <changyue74@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+packages = [{include = "home_vision"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.7.0.68"
+pydantic = "^1.10.5"
+future = "^0.18.3"
+onnxruntime-gpu = "^1.14.0"
+aiohttp = "^3.8.4"
+aiohttp-cors = "^0.7.0"
+aiohttp-jinja2 = "^1.5.1"
+aiortc = "^1.4.0"
+gdown = "^4.6.3"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+fastapi = "^0.92.0"
+starlette = "^0.25.0"
+itsdangerous = "^2.1.2"
+python-multipart = "^0.0.5"
+pytest = "^7.2.1"
+httpx = "^0.23.3"
+pytest-mock = "^3.10.0"
+pytest-asyncio = "^0.20.3"
+pytest-aiohttp = "^1.0.4"
+pytest-cov = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

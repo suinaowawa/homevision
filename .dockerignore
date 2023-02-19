@@ -1,0 +1,11 @@
+.git
+.gitignore
+*.egg-info
+*.pyc
+annotations/**
+data/images/**
+test/**
+train/**
+docker.sh
+data/**
+results/**

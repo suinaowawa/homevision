@@ -1,0 +1,9 @@
+host_ip: "localhost"
+solutions:
+  - name: object_detection_solution
+    enable: true
+cameras:
+  # - name: home
+  #   src: rtsp://admin:xxxxxx@192.168.0.139//h264Preview_01_main
+  - name: local
+    src: tests/local_video.mkv

@@ -1,0 +1,218 @@
+{% extends "base.html" %}
+{% block content %}
+{# Flashing message start here #}
+{% for message in get_flashed_messages(request) %}
+<div class="alert alert-{{ message.category }} alert-dismissible fade show" role="alert">
+    {{ message.message }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endfor %}
+{# Flashing message ends here #}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <textarea class="form-control solution-config" id="config" name="config" rows="15" cols="60" hidden>{{ solutions|tojson }}</textarea>
+                <h3 class="card-title mb-3 text-dark">| Home Vision Solution Manager</h3>
+                <h5 class="mt-lg-5"> Camera Name </h5>
+                <div class="row mb-3 mt-lg-4">
+                    <div class="col-lg-3">
+                        <div class="nav mb-3 flex-column nav-pills">
+                            {% for camera_name in cameras.keys() %}
+                            <a href="#module_{{loop.index}}" data-bs-toggle="pill" class="nav-link {% if loop.index == 1 %} active show{% endif %}">{{camera_name}}</a> 
+                            {% endfor %}
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-8 col-lg-9">
+                        <div class="tab-content">
+                            
+                            {% for camera_src in cameras.values() %}
+                            <div id="module_{{loop.index}}" class="tab-pane fade {% if loop.index == 1 %} active show{% endif %}">
+                                <h4>{{camera_src}}</h4>
+                                <div class="btn-group">
+                                    <label for="solutions">Solution:</label>
+                                    <select class="solutions" name="solutions" id="{{loop.index}}_solutions">
+                                        {% for solution in solutions.keys() %}
+                                        <option value="{{solution}}">{{solution}}</option>
+                                        {% endfor %}
+                                    </select>
+                                    <button type="button" class="btn btn-dark align-items-center start_new_solution" data-bs-toggle="modal" data-bs-target="#solutionModal_{{loop.index}}" id="{{loop.index}}_start_new_solution">
+                                        <i class="fa fa-play text-white m-2"></i>Start New Solution
+                                    </button>
+                                </div>
+                                
+                                <!-- Start Solution Modal -->
+                                <div class="modal fade" id="solutionModal_{{loop.index}}" tabindex="-1" aria-labelledby="solutionModalLabel_{{loop.index}}" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="solutionModalLabel_{{loop.index}}">Start New Solution</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="start_solution_form", id="{{loop.index}}_start_solution_form" action="/start", method="POST">
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Camera Source: </label>
+                                                    <input class="form-control" value="{{camera_src}}" name="camera_src" readonly>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1" class="form-label">Solution Name: </label>
+                                                    <input class="form-control solution-name" value="" name="solution_name" readonly>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label class="col-lg-2 col-form-label">config: <span class="text-danger">*</span>
+                                                    </label>
+                                                    <textarea class="form-control solution-config" id="{{loop.index}}_config" name="config" rows="15" cols="60"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-dark start_solution" id="{{loop.index}}_start_solution" type="submit" name="submit" value="Submit">Start</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {% include 'solution_table.html' %}   
+                                
+                            </div>
+                            {% endfor %}
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-middle">
+                    <div class="col-lg-2 ml-lg-5 text-center">
+                        <button type="button" class="btn btn-dark align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa fa-plus text-white m-2"></i>Add Camera
+                        </button>
+                    </div>
+                </div>
+                
+                
+                
+                <!-- Add Camera Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Add Camera</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="add_camera_form", action="/add_camera", method="POST">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Camera Name: </label>
+                                    <input class="form-control" name="camera_name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Source: </label>
+                                    <input class="form-control" name="camera_src">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-dark" id="add_camera" type="submit" name="submit" value="Submit">Add</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+{% endblock %}
+{% block scripts %}
+<script>
+    function syntaxHighlight(json) {
+        json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+            var cls = 'number';
+            if (/^"/.test(match)) {
+                if (/:$/.test(match)) {
+                    cls = 'key';
+                } else {
+                    cls = 'string';
+                }
+            } else if (/true|false/.test(match)) {
+                cls = 'boolean';
+            } else if (/null/.test(match)) {
+                cls = 'null';
+            }
+            return '<span class="' + cls + '">' + match + '</span>';
+        });
+    }
+
+    
+    const solution_configs = JSON.parse($('#config').text());
+
+    $(function(){
+        $('#add_camera').on('click', function(e){
+            console.log("submit clicked!!")
+            e.preventDefault();
+            $('#add_camera_form').submit();
+        });
+    });
+    $(function(){
+        $('.start_solution').on('click', function(e){
+            console.log("submit clicked!!")
+            console.log($(this))
+            console.log($(this).attr("id"))
+            id_num = $(this).attr("id").split('_')[0]
+            console.log(id_num)
+            e.preventDefault();
+            console.log($(id_num + '_start_solution_form'))
+            $('#'+id_num + '_start_solution_form').submit();
+        });
+    });
+
+    $(function(){
+        $('.start_new_solution').on('click', function(e){
+            console.log("submit clicked!!")
+            id_num = $(this).attr("id").split('_')[0]
+            var selectSolution = document.getElementById(id_num + "_solutions")
+            $('.solution-name:text').attr('value', selectSolution.options[selectSolution.selectedIndex].value);
+            var new_config = solution_configs[selectSolution.options[selectSolution.selectedIndex].value];
+            console.log(new_config)
+            var str = JSON.stringify(new_config, undefined, 4);
+            $('#'+id_num + '_config').text(str);
+        });
+    });
+    
+
+    $('.stop_solution').on('click', function(e){
+        console.log("submit clicked!!")
+        console.log($(this))
+        console.log($(this).attr("id"))
+        id_num = $(this).attr("id").split('_')[0]
+        console.log(id_num)
+        e.preventDefault();
+        console.log($(id_num + '_stop_solution_form'))
+        $('#'+id_num + '_stop_solution_form').submit();
+    });
+
+
+    var preElements = document.getElementsByClassName('configBox');
+
+    for(var i = 0; i < preElements.length; ++ i)
+    {   
+        var config_text = JSON.parse($("#textConfig_"+(i+1)).text())
+        var config_text_str = JSON.stringify(config_text, undefined, 4);
+        var element = preElements[i];
+        element.innerHTML = syntaxHighlight(config_text_str);
+    }
+
+    
+    function openPort(port) {
+        url = window.location.protocol + '//' + window.location.hostname + ':' + port
+        window.open(url, "_blank");
+    }
+</script>    
+{% endblock %}

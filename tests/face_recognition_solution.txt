@@ -1,0 +1,100 @@
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1455, 119, 1502, 180], [1444, 641, 1528, 751]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1443, 626, 1529, 742], [1443, 127, 1495, 191]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1437, 128, 1487, 193], [1444, 626, 1526, 732]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1435, 135, 1485, 194], [1442, 621, 1525, 730]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1439, 617, 1522, 725], [1430, 134, 1483, 198]]}
+{"face_ids": ["unknown", "james v"], "bboxes": [[1438, 615, 1519, 726], [1428, 136, 1481, 205]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1433, 611, 1514, 727], [1421, 153, 1473, 219]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1430, 610, 1513, 728], [1420, 159, 1471, 221]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1427, 613, 1511, 729], [1420, 163, 1469, 224]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1421, 612, 1506, 731], [1420, 172, 1472, 233]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1415, 607, 1494, 729], [1421, 178, 1471, 241]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1405, 615, 1484, 740], [1420, 186, 1471, 251]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1402, 624, 1482, 748], [1420, 186, 1474, 252]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1401, 627, 1479, 749], [1422, 189, 1474, 254]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1394, 628, 1474, 751], [1422, 191, 1472, 254]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1386, 632, 1467, 759], [1419, 188, 1471, 255]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1374, 640, 1450, 755], [1414, 194, 1464, 257]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1366, 646, 1447, 761], [1407, 188, 1459, 256]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1404, 187, 1459, 257], [1357, 654, 1442, 766]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1399, 195, 1454, 261], [1351, 660, 1431, 775]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1395, 197, 1450, 266], [1341, 660, 1419, 780]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1325, 683, 1419, 783], [1389, 202, 1445, 269]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1378, 208, 1437, 284], [1319, 692, 1417, 794]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1373, 219, 1428, 288], [1323, 694, 1423, 796], [709, 959, 798, 1068]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1320, 703, 1424, 807], [1363, 226, 1423, 297], [707, 958, 793, 1066]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1319, 708, 1432, 812], [1358, 233, 1414, 302], [707, 958, 792, 1065]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1331, 716, 1443, 819], [1335, 239, 1392, 311]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1340, 713, 1456, 823], [1329, 237, 1390, 315]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1346, 716, 1463, 826], [1320, 241, 1382, 318]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1352, 716, 1468, 824], [1312, 242, 1372, 318]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1357, 716, 1474, 825], [1305, 240, 1365, 318]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1370, 710, 1485, 818], [1298, 239, 1358, 319], [693, 955, 783, 1067]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1377, 713, 1487, 816], [1296, 240, 1357, 321], [694, 954, 781, 1066]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1380, 714, 1494, 821], [1286, 247, 1346, 329], [697, 951, 785, 1067]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1281, 254, 1342, 332], [1383, 714, 1501, 824], [696, 947, 784, 1067]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1385, 714, 1503, 825], [698, 949, 785, 1066], [1273, 259, 1333, 333]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1391, 716, 1511, 826], [698, 953, 784, 1067], [1267, 274, 1328, 352]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1396, 710, 1518, 826], [697, 955, 784, 1067], [1266, 278, 1327, 358]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1402, 712, 1528, 830], [699, 955, 783, 1068], [1263, 283, 1327, 365]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1412, 713, 1536, 827], [700, 956, 783, 1069]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1424, 712, 1548, 826], [700, 956, 784, 1069]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1438, 728, 1561, 837], [698, 960, 786, 1071]]}
+{"face_ids": ["unknown"], "bboxes": [[699, 956, 785, 1071]]}
+{"face_ids": [], "bboxes": []}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[699, 958, 786, 1073], [1233, 325, 1304, 401]]}
+{"face_ids": ["unknown"], "bboxes": [[698, 957, 784, 1073]]}
+{"face_ids": ["unknown"], "bboxes": [[701, 957, 785, 1073]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[701, 958, 789, 1075], [1503, 749, 1620, 855]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[703, 958, 791, 1076], [1516, 757, 1624, 857]]}
+{"face_ids": ["unknown", "unknown", "unknown", "unknown"], "bboxes": [[704, 958, 791, 1074], [1530, 764, 1637, 863], [2090, 473, 2141, 548], [1198, 344, 1273, 427]]}
+{"face_ids": ["unknown", "unknown", "unknown", "unknown"], "bboxes": [[700, 953, 790, 1079], [1540, 773, 1648, 868], [2077, 470, 2138, 547], [1179, 342, 1274, 433]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[698, 954, 787, 1078], [2052, 453, 2101, 531]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[702, 955, 787, 1075], [1569, 783, 1674, 881], [2033, 448, 2087, 529]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[696, 956, 785, 1077], [1576, 785, 1681, 884], [2027, 444, 2080, 523]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[698, 956, 784, 1074], [2021, 447, 2074, 520], [1585, 786, 1695, 888]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[697, 956, 784, 1075], [1601, 793, 1702, 890], [2008, 443, 2064, 520]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[693, 954, 784, 1073], [1992, 438, 2044, 508]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[692, 953, 784, 1073], [1978, 437, 2035, 508]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[693, 953, 785, 1073], [1966, 433, 2020, 509]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[695, 950, 785, 1072], [1960, 425, 2017, 503]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[696, 951, 783, 1071], [1957, 429, 2014, 503]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[697, 952, 783, 1070], [1936, 425, 1994, 505]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[701, 954, 783, 1068], [1928, 420, 1986, 502]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[701, 957, 785, 1069], [1920, 422, 1974, 501]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1908, 418, 1964, 504], [702, 959, 786, 1068], [1611, 803, 1717, 902]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[701, 961, 789, 1068], [1899, 420, 1956, 503], [1608, 797, 1718, 901]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[699, 964, 791, 1070], [1888, 422, 1941, 503], [1599, 791, 1706, 904]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[699, 966, 790, 1070], [1879, 423, 1931, 500], [1593, 778, 1687, 899]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1869, 418, 1923, 499], [1580, 774, 1672, 888], [702, 965, 789, 1071]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1863, 412, 1920, 497], [1574, 773, 1664, 883], [702, 964, 790, 1071]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1854, 414, 1911, 499], [709, 963, 790, 1072], [1566, 763, 1651, 881]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[708, 962, 788, 1070], [1551, 756, 1635, 869], [1840, 417, 1893, 493]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[709, 960, 789, 1069], [1542, 743, 1626, 855], [1839, 421, 1897, 508]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[709, 959, 788, 1067], [1534, 735, 1615, 849], [1831, 419, 1885, 500]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1527, 725, 1609, 840], [711, 958, 789, 1067], [1821, 414, 1877, 492]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1816, 416, 1871, 491], [1511, 717, 1587, 826], [708, 956, 789, 1066]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1808, 410, 1862, 488], [1496, 703, 1573, 814]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1486, 700, 1568, 807], [1804, 409, 1859, 483], [706, 953, 788, 1063]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1474, 684, 1552, 802], [1794, 409, 1850, 483], [709, 954, 789, 1064]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1472, 677, 1551, 792], [699, 958, 787, 1065], [1789, 406, 1842, 478]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1466, 672, 1548, 787], [1783, 406, 1838, 482], [700, 963, 787, 1066]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1449, 663, 1529, 783], [1776, 399, 1827, 475]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1444, 658, 1524, 780], [1773, 398, 1823, 472]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1436, 648, 1517, 772], [1770, 399, 1822, 474]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1430, 646, 1515, 770], [1763, 391, 1820, 473], [742, 571, 853, 671]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1426, 644, 1508, 766], [1759, 387, 1816, 470]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1409, 640, 1488, 762], [1751, 384, 1806, 464]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1402, 641, 1480, 764], [1746, 383, 1803, 462]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1393, 642, 1475, 765], [1744, 382, 1801, 459], [685, 955, 769, 1063]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1377, 639, 1461, 767], [1742, 383, 1799, 459], [687, 949, 765, 1061]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1368, 646, 1455, 771], [1738, 381, 1796, 455], [681, 952, 760, 1061]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1345, 653, 1429, 782], [1732, 380, 1791, 457], [666, 954, 757, 1067]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1337, 660, 1422, 788], [1731, 379, 1790, 458]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1325, 663, 1413, 789], [1730, 379, 1789, 459]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1312, 665, 1394, 792], [1729, 383, 1788, 462]]}
+{"face_ids": ["unknown", "unknown"], "bboxes": [[1728, 383, 1786, 462], [1303, 678, 1387, 795]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1727, 382, 1784, 462], [617, 925, 727, 1057], [1268, 681, 1351, 805]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1726, 382, 1783, 462], [1248, 684, 1327, 809], [620, 938, 721, 1061]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1238, 688, 1320, 811], [1726, 383, 1783, 462], [618, 947, 719, 1063]]}
+{"face_ids": ["unknown", "unknown", "unknown"], "bboxes": [[1726, 383, 1783, 462], [1224, 685, 1304, 811], [619, 944, 712, 1061]]}

@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Vision</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/bootstrap.min.css') }}">
+    <link rel="icon" href="https://www.flaticon.com/free-icons/vison">
+    <style>
+        .nav-link {
+            background-color: #FFF!important;
+            color: #343a40!important;
+          }
+          
+        .nav-link.active {
+            color: #FFF!important;
+            background-color: #343a40!important;
+        }
+        pre {
+            max-width: 800px;
+            outline: 1px solid #ccc;
+        }
+        .string { color: green; }
+        .number { color: darkorange; }
+        .boolean { color: blue; }
+        .null { color: magenta; }
+        .key { color: red; }
+    </style>
+</head>
+<body>
+
+    <!-- *******************
+        Preloader start
+    ********************-->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ******************** -->
+
+    <nav class="navbar bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white m-lg-3 h1" href="#">
+            <img src="/static/logo.svg" alt="" width="225" height="52" class="d-inline-block align-text-top"> 
+                    
+                    
+                    <!-- EVA VISION -->
+            </a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+    {% block content %}
+
+    {% endblock %}
+    </div>
+<script src="/static/js/bootstrap.min.js"></script>
+<script type=text/javascript src="/static/js/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.spinner-border').hide();
+});
+$(".alert").delay(4000).slideUp(200, function() {
+    $(this).alert('close');
+});
+</script>
+{% block scripts %}
+{% endblock %}
+</body>
+</html>

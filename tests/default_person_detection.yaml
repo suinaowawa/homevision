@@ -1,0 +1,7 @@
+person_detector:
+  method: "YOLOX"
+  config:
+      model_type: "tiny"
+      conf_threshold: 0.5
+      nms_threshold: 0.5
+      gpu: True

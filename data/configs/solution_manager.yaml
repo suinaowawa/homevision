@@ -1,0 +1,16 @@
+host_ip: 10.0.0.68
+solutions:
+  - name: object_detection_solution
+    enable: true
+  - name: person_detection_solution
+    enable: true
+  # - name: raw_stream_solution
+  #   enable: true
+  # - name: raw_datachannel_solution
+  #   enable: true
+
+cameras:
+  # - name: home
+  #   src: rtsp://admin:xxxxxxx@10.0.0.67//h264Preview_01_main
+  - name: test
+    src: tests/test.mp4

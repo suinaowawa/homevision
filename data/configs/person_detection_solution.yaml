@@ -1,0 +1,4 @@
+person_detector: 
+  method: "YOLOX"
+  config:
+    gpu: True

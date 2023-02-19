@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title mb-3">| {{solution_name}}</h2>
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="nav mb-3 flex-column nav-pills">
+                            {% for module in keys %}
+                            <a href="#module_{{loop.index}}" data-bs-toggle="pill" class="nav-link {% if loop.index == 1 %} active show{% endif %}">{{module}}</a> 
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-9">
+                        <div class="tab-content">
+                            {% for config in values %}
+                            <div id="module_{{loop.index}}" class="tab-pane fade {% if loop.index == 1 %} active show{% endif %}">
+                                <div class="form-validation">
+                                    <!-- <button type="button" class="btn btn-success m-b-10 m-l-5" id="toastr-success-top-full-width">Success</button> -->
+                                    <form action="#" method="post">
+                                        <div class="ml-lg-5 form-group row">
+                                            <label class="col-lg-2 col-form-label">config: <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-8">
+                                                <textarea rows="15" cols="60">{{config}}</textarea>
+                                                <!-- <input title="请填写" autocomplete="off" class="form-control" id="username" name="username" placeholder="请输入用户名" type="text" value="" required="">
+                                                <div class="invalid-feedback">
+                                                请输入用户名！
+                                                </div> -->
+                                            </div>                                            
+                                        </div>
+                                        <!-- <div class="ml-lg-5 mb-3 form-group row">
+                                            <label class="col-lg-2 col-form-label" for="email">邮箱<span class="text-danger">*</span>
+                                            </label> 
+                                            <div class="col-lg-8">
+                                                <input title="请填写" autocomplete="off" class="form-control animated fadeInUp" id="email" name="email" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>                 
+                                                <div class="invalid-feedback">
+                                                请输入正确的邮箱！
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ml-lg-5 mb-3 form-group row">
+                                            <label class="col-lg-2 col-form-label">初始密码<span class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-8">
+                                                <input title="请填写" autocomplete="off" class="form-control animated fadeInUp" id="password" name="password" type="text" value={{pwd}} required="">
+                                                <div class="invalid-feedback">
+                                                    请输入初始密码！
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                        <div class="ml-lg-5 mb-3 form-group row">
+                                            <label class="col-lg-2 col-form-label">账号等级<span class="text-danger">*</span>
+                                            </label>
+                                            <div class="col-lg-8">
+                                                <select title="请选择" class="form-control" id="role" name="role" required>
+                                                    <option value="">请选择账号等级</option>
+                                                    <option value="初审管理员">初审管理员</option>
+                                                    <option value="复审管理员">复审管理员</option>
+                                                    <option value="终审管理员">终审管理员</option>
+                                                    <option value="管理员">管理员</option>
+                                                    <option value="超级管理员">超级管理员</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    请选择账号等级！
+                                                </div>
+                                            </div>                                            
+                                        </div>                                    -->
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                            {% endfor %}
+                            <div class="ml-lg-5 mt-lg-5 form-group row">
+                                <div class="col-lg-2">
+                                </div>
+                                <div class="col-md-offset-2 col-md-10 submit-row" style="zoom: 110%;">
+                                    <input type="submit" class="btn btn-primary" id='submit_forms' value="Save and Restart Solution">
+                                    
+                                    
+                            
+                                    <!-- <input name="_add_another" type="submit" class="btn btn-secondary" id='add_another' value="保存并添加下一个"> -->
+                                    
+                                    
+                                    <!-- <input name="_continue_editing" type="submit" class="btn btn-secondary" value="Save and Continue Editing"> -->
+                                    
+                                    
+                                            
+                                            
+                                    <a href="#1" class="btn btn-danger" role="button">Cancel</a>
+                                    
+                                </div>
+                            </div>
+                            <!-- <div id="v-pills-profile" class="tab-pane fade">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi adipisci cupiditate quo libero doloribus et rem a eos officiis. Eos at consequuntur, fugiat ducimus sapiente sit sequi aliquam, deserunt laboriosam perferendis sed corporis. Unde provident ea quo quibusdam beatae neque.</p>
+                            </div>
+                            <div id="v-pills-messages" class="tab-pane fade">
+                                <p>perspiciatis provm!</p>
+                                <p>Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident laboris ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla. Velit
+                                    et et proident Lorem do ea tempor officia dolor. Reprehenderit Lorem aliquip labore est magna commodo est ea veniam consectetur.</p>
+                            </div>
+                            <div id="v-pills-settings" class="tab-pane fade">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi adipisci cupiditate quo libero doloribus et rem a eos officiis. Eos at consequuntur, fugiat ducimus sapiente sit sequi aliquam, deserunt laboriosam perferendis sed corporis. Unde provident ea quo quibusdam beatae neque.</p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

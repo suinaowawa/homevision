@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ solution_name }}</title>
+    <style>
+    button {
+        padding: 8px 16px;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .option {
+        margin-bottom: 8px;
+    }
+
+    #media {
+        max-width: 1280px;
+    }
+    .right {
+        float: right;
+    }
+    </style>
+</head>
+<body>
+<button onclick="returnHome()" class="right">Solution Manager</button>
+<h2> Connected Peers: {{connected_peers}}</h2>
+<h2> Connected Channels: {{connected_channels}}</h2>
+<div class="option">
+    <input id="use-stun" type="checkbox"/>
+    <label for="use-stun">Use STUN server</label>
+</div>
+
+<div class="option">
+    <input id="use-datachannel" checked="checked" type="checkbox"/>
+    <label for="use-datachannel">Use datachannel</label>
+</div>
+
+<button id="start" onclick="start()">Start</button>
+<button id="stop" style="display: none" onclick="stop()">Stop</button>
+
+<h2>State</h2>
+<p>
+    ICE gathering state: <span id="ice-gathering-state"></span>
+</p>
+<p>
+    ICE connection state: <span id="ice-connection-state"></span>
+</p>
+<p>
+    Signaling state: <span id="signaling-state"></span>
+</p>
+
+<div id="media">
+    <h2>{{ solution_name }}</h2>
+
+    <audio id="audio" autoplay="true"></audio>
+    <video id="video" autoplay="true" playsinline="true"></video>
+</div>
+
+<h2>Data Channel</h2>
+<pre id="data-channel" style="height: 200px;"></pre>
+
+<script src="client.js"></script>
+<script>document.getElementById('home').onclick()</script>
+</body>
+</html>

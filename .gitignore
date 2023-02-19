@@ -1,0 +1,6 @@
+results/**
+models/**
+*.pyc
+*.avi
+*.egg-info/
+venv

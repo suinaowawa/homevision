@@ -1,0 +1,6 @@
+object_detector: 
+  method: "YOLOV8"
+  config:
+    gpu: True
+    conf_threshold: 0.5
+    nms_threshold: 0.5

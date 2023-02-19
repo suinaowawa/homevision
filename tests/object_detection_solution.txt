@@ -1,0 +1,109 @@
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[664, 141, 1291, 371], [21, 101, 1868, 751], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[666, 141, 1291, 371], [21, 100, 1868, 751], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[667, 141, 1291, 371], [21, 99, 1868, 750], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[666, 141, 1291, 371], [21, 99, 1868, 750], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[665, 140, 1291, 371], [21, 101, 1868, 750], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[665, 140, 1291, 371], [21, 101, 1868, 750], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[667, 141, 1291, 371], [21, 101, 1869, 750], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[668, 141, 1291, 371], [21, 102, 1868, 751], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[671, 141, 1290, 371], [22, 101, 1868, 751], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[671, 141, 1290, 371], [23, 100, 1868, 751], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[674, 141, 1289, 371], [23, 97, 1868, 751], [551, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[680, 140, 1290, 371], [22, 93, 1866, 750], [551, 946, 668, 1022]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[680, 140, 1290, 371], [21, 93, 1866, 750], [551, 946, 668, 1022]]}
+{"class_names": ["dog", "couch"], "bboxes": [[685, 140, 1291, 371], [23, 97, 1868, 750]]}
+{"class_names": ["dog", "couch"], "bboxes": [[686, 140, 1291, 371], [23, 96, 1868, 750]]}
+{"class_names": ["dog", "couch"], "bboxes": [[687, 141, 1291, 371], [24, 95, 1868, 750]]}
+{"class_names": ["dog", "couch"], "bboxes": [[687, 141, 1291, 371], [24, 95, 1868, 750]]}
+{"class_names": ["dog", "couch"], "bboxes": [[684, 141, 1292, 371], [26, 96, 1868, 751]]}
+{"class_names": ["dog", "couch"], "bboxes": [[681, 141, 1292, 372], [26, 97, 1867, 751]]}
+{"class_names": ["dog", "couch"], "bboxes": [[682, 141, 1293, 372], [18, 104, 1857, 753]]}
+{"class_names": ["dog", "couch"], "bboxes": [[681, 140, 1293, 371], [17, 103, 1856, 752]]}
+{"class_names": ["dog", "couch"], "bboxes": [[680, 140, 1292, 371], [17, 103, 1855, 752]]}
+{"class_names": ["dog", "couch"], "bboxes": [[682, 140, 1292, 371], [17, 104, 1856, 753]]}
+{"class_names": ["dog", "couch"], "bboxes": [[683, 140, 1292, 371], [17, 104, 1856, 753]]}
+{"class_names": ["dog", "couch"], "bboxes": [[683, 141, 1292, 372], [16, 104, 1856, 752]]}
+{"class_names": ["dog", "couch"], "bboxes": [[683, 141, 1292, 372], [16, 104, 1855, 752]]}
+{"class_names": ["dog", "couch"], "bboxes": [[684, 141, 1292, 372], [16, 104, 1856, 753]]}
+{"class_names": ["dog", "couch"], "bboxes": [[684, 141, 1292, 372], [15, 104, 1855, 753]]}
+{"class_names": ["dog", "couch"], "bboxes": [[676, 140, 1287, 372], [39, 95, 1877, 764]]}
+{"class_names": ["dog", "couch"], "bboxes": [[675, 140, 1287, 372], [39, 94, 1877, 765]]}
+{"class_names": ["couch", "dog", "sports ball"], "bboxes": [[19, 91, 1865, 751], [673, 141, 1230, 354], [550, 946, 668, 1021]]}
+{"class_names": ["couch", "dog", "sports ball"], "bboxes": [[19, 92, 1865, 751], [673, 141, 1230, 354], [550, 946, 668, 1021]]}
+{"class_names": ["couch", "dog", "sports ball"], "bboxes": [[23, 104, 1868, 751], [673, 141, 1200, 352], [550, 946, 668, 1021]]}
+{"class_names": ["couch", "dog", "sports ball"], "bboxes": [[23, 105, 1868, 752], [673, 141, 1200, 352], [550, 946, 668, 1021]]}
+{"class_names": ["couch", "sports ball"], "bboxes": [[17, 98, 1866, 751], [551, 946, 668, 1021]]}
+{"class_names": ["couch", "sports ball"], "bboxes": [[18, 97, 1866, 751], [551, 946, 668, 1021]]}
+{"class_names": ["couch", "sports ball", "dog"], "bboxes": [[21, 119, 1867, 751], [551, 946, 668, 1021], [742, 119, 1255, 357]]}
+{"class_names": ["couch", "sports ball", "dog"], "bboxes": [[21, 119, 1867, 751], [551, 946, 668, 1021], [742, 119, 1254, 357]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[746, 113, 1311, 370], [22, 123, 1862, 748], [550, 946, 668, 1021]]}
+{"class_names": ["dog", "couch", "sports ball"], "bboxes": [[760, 113, 1310, 370], [23, 124, 1862, 748], [550, 946, 668, 1021]]}
+{"class_names": ["couch"], "bboxes": [[29, 126, 1865, 748]]}
+{"class_names": ["couch"], "bboxes": [[29, 126, 1865, 748]]}
+{"class_names": ["couch", "person"], "bboxes": [[23, 125, 1860, 752], [655, 80, 1172, 356]]}
+{"class_names": ["couch", "person"], "bboxes": [[24, 125, 1860, 752], [656, 80, 1173, 355]]}
+{"class_names": ["couch"], "bboxes": [[14, 125, 1865, 750]]}
+{"class_names": ["couch"], "bboxes": [[14, 125, 1865, 750]]}
+{"class_names": ["dog", "couch"], "bboxes": [[563, 54, 1220, 384], [17, 119, 1863, 749]]}
+{"class_names": ["dog", "couch"], "bboxes": [[562, 54, 1220, 384], [17, 119, 1863, 749]]}
+{"class_names": ["couch"], "bboxes": [[27, 110, 1866, 744]]}
+{"class_names": ["couch"], "bboxes": [[26, 110, 1866, 743]]}
+{"class_names": ["couch", "dog"], "bboxes": [[53, 105, 1886, 778], [387, 12, 1041, 393]]}
+{"class_names": ["couch", "dog"], "bboxes": [[57, 105, 1886, 778], [386, 12, 1042, 393]]}
+{"class_names": ["couch"], "bboxes": [[61, 102, 1889, 753]]}
+{"class_names": ["couch"], "bboxes": [[65, 102, 1889, 752]]}
+{"class_names": ["cat", "couch"], "bboxes": [[42, 68, 893, 671], [44, 102, 1885, 765]]}
+{"class_names": ["cat", "couch"], "bboxes": [[43, 69, 893, 672], [44, 102, 1885, 764]]}
+{"class_names": ["couch"], "bboxes": [[35, 107, 1868, 751]]}
+{"class_names": ["couch"], "bboxes": [[37, 107, 1868, 751]]}
+{"class_names": ["couch"], "bboxes": [[61, 107, 1870, 753]]}
+{"class_names": ["couch"], "bboxes": [[73, 107, 1871, 756]]}
+{"class_names": ["couch"], "bboxes": [[48, 102, 1885, 765]]}
+{"class_names": ["couch"], "bboxes": [[48, 102, 1885, 765]]}
+{"class_names": ["couch"], "bboxes": [[56, 102, 1885, 765]]}
+{"class_names": ["couch"], "bboxes": [[51, 102, 1885, 766]]}
+{"class_names": ["couch"], "bboxes": [[52, 102, 1884, 768]]}
+{"class_names": ["couch"], "bboxes": [[58, 102, 1884, 771]]}
+{"class_names": ["couch"], "bboxes": [[42, 102, 1885, 769]]}
+{"class_names": ["couch"], "bboxes": [[42, 102, 1886, 769]]}
+{"class_names": ["couch"], "bboxes": [[46, 102, 1887, 767]]}
+{"class_names": ["couch"], "bboxes": [[48, 102, 1887, 764]]}
+{"class_names": ["couch"], "bboxes": [[51, 102, 1886, 763]]}
+{"class_names": ["couch"], "bboxes": [[51, 102, 1888, 763]]}
+{"class_names": ["couch"], "bboxes": [[53, 102, 1887, 763]]}
+{"class_names": ["couch"], "bboxes": [[52, 102, 1887, 762]]}
+{"class_names": ["couch"], "bboxes": [[51, 102, 1887, 761]]}
+{"class_names": ["couch"], "bboxes": [[51, 102, 1888, 758]]}
+{"class_names": ["couch"], "bboxes": [[53, 102, 1888, 762]]}
+{"class_names": ["couch"], "bboxes": [[52, 102, 1887, 764]]}
+{"class_names": ["couch"], "bboxes": [[59, 102, 1887, 760]]}
+{"class_names": ["couch"], "bboxes": [[52, 102, 1886, 762]]}
+{"class_names": ["couch"], "bboxes": [[54, 102, 1887, 762]]}
+{"class_names": ["couch"], "bboxes": [[54, 102, 1887, 764]]}
+{"class_names": ["couch"], "bboxes": [[52, 101, 1886, 762]]}
+{"class_names": ["couch"], "bboxes": [[52, 101, 1887, 761]]}
+{"class_names": ["couch"], "bboxes": [[51, 101, 1887, 763]]}
+{"class_names": ["couch"], "bboxes": [[51, 101, 1887, 763]]}
+{"class_names": ["couch"], "bboxes": [[49, 101, 1887, 766]]}
+{"class_names": ["couch"], "bboxes": [[48, 101, 1888, 766]]}
+{"class_names": ["couch"], "bboxes": [[52, 101, 1888, 766]]}
+{"class_names": ["couch"], "bboxes": [[48, 102, 1888, 766]]}
+{"class_names": ["couch"], "bboxes": [[70, 101, 1886, 769]]}
+{"class_names": ["couch"], "bboxes": [[70, 101, 1886, 770]]}
+{"class_names": ["couch"], "bboxes": [[68, 101, 1886, 764]]}
+{"class_names": ["couch"], "bboxes": [[67, 101, 1885, 763]]}
+{"class_names": ["couch"], "bboxes": [[25, 106, 1870, 755]]}
+{"class_names": ["couch"], "bboxes": [[69, 102, 1886, 763]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1870, 753]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1870, 753]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1870, 751]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1870, 751]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1869, 753]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1869, 754]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1869, 757]]}
+{"class_names": ["couch"], "bboxes": [[23, 106, 1869, 757]]}
+{"class_names": ["couch"], "bboxes": [[24, 106, 1868, 757]]}
+{"class_names": ["couch"], "bboxes": [[24, 106, 1868, 757]]}
+{"class_names": ["couch"], "bboxes": [[23, 105, 1868, 756]]}
+{"class_names": ["couch"], "bboxes": [[23, 105, 1868, 756]]}
+{"class_names": ["couch"], "bboxes": [[23, 105, 1868, 756]]}

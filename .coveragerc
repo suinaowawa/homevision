@@ -1,0 +1,10 @@
+[run]
+omit =
+    # Tests
+    */utils.py
+    tests/*
+    models/*
+    home_vision/utils/visualization.py
+    setup.py
+    
+

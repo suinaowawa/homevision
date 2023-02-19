@@ -1,0 +1,60 @@
+<!-- https://stackoverflow.com/questions/68951263/how-to-make-accordion-table-with-bootstrap-5 -->
+
+<table class="table mt-lg-5">
+    <thead>
+        <tr>
+        <th scope="col" style="width: 2.66%">#</th>
+        <th scope="col" style="width: 10.66%">Solution</th>
+        <th scope="col" style="width: 5.66%">Status</th>
+        <th scope="col" style="width: 13.66%" class="text-center">Action</th>
+        <th scope="col" style="width: 8.66%" class="text-center">Port</th>
+        </tr>
+    </thead>
+    <tbody class="accordion" id="accordionExample">
+    {% for detail in running.keys() %}
+        {% if detail[0] == camera_src %}
+        <form class="stop_solution_form" id="{{loop.index}}_stop_solution_form" action="/stop" method="POST" hidden>
+            <input class="form-control" name="camera_src" value="{{camera_src}}" hidden>
+            <input class="form-control" name="solution_name" value="{{detail[1]}}" hidden>
+            <input class="form-control" name="config" value="{{detail[2]}}" hidden>
+        </form>
+        <div class="accordion-item">
+        <tr class="accordion-header" id="heading_{{ loop.index }}" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ loop.index }}" aria-expanded="true" aria-controls="collapse_{{ loop.index }}">
+        <th class="align-middle" scope="row">{{ loop.index }}</th>
+        <td class="align-middle">{{ detail[1] }}</td>
+        <td class="align-middle" style="max-width:2%">
+            <span class="badge text-bg-success">Running</span>
+        </td>
+        <td>
+            <div>
+                <div class="btn-group mr-2" role="group">
+                    <button class="btn m-2 stop_solution" id="{{loop.index}}_stop_solution" type="submit" value="Submit"><i class="fa fa-stop text-danger"></i></button>
+                </div>
+                <div class="btn-group mr-2" role="group">
+                    <form class="m-0" >
+                        <button class="btn m-2" type="submit" onclick="openPort({{running[detail]|safe}});"><i class="fa fa-external-link text-warning "></i></button>
+                    </form>
+                </div>  
+                <div class="btn-group mr-2" role="group">
+                    <button class="btn m-2" data-bs-toggle="collapse" data-bs-target="#collapse_{{ loop.index }}" aria-expanded="true" aria-controls="collapse_{{ loop.index }}"><i class="fa fa-cog text-primary "></i></button>
+                </div>
+            </div> 
+        </td>
+        <td class="align-middle text-center">{{ running[detail] }}</td>
+        </tr>
+        <tr>
+            <td colspan="10" class="p-0">
+                <div id="collapse_{{ loop.index }}" class="accordion-collapse collapse {% if loop.index == 1 %} active show{% endif %}" aria-labelledby="heading_{{loop.index}}" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <textarea id="textConfig_{{ loop.index }}" hidden="true">{{ detail[2] }}</textarea>
+                    <pre class="configBox" id="cofigBox_{{ loop.index }}"></pre>
+                </div>
+                </div>
+            </td>
+        </tr>
+        </div>
+        {% endif %}
+    {% endfor %}
+        
+    </tbody>
+    </table>

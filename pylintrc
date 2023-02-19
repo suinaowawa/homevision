@@ -1,0 +1,22 @@
+[MASTER]
+ignore-paths=^home_vision/modules/pose_estimation/.*$,
+             ^home_vision/modules/action_recognition/.*$,
+             ^home_vision/modules/tracker/methods/bot_track.*$,
+             ^home_vision/modules/tracker/methods/deep_sort.*$,
+             ^home_vision/modules/tracker/methods/strong_sort.*$,
+[MAIN]
+extension-pkg-whitelist=cv2
+
+[TYPECHECK]
+ignored-modules=cv2
+
+[MESSAGES CONTROL]
+disable=
+  too-many-arguments,
+  too-few-public-methods,
+  too-many-instance-attributes,
+  too-many-statements,
+  too-many-locals,
+  arguments-differ,
+  abstract-method,
+  duplicate-code
