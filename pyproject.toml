@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "home-vision"
 version = "0.1.0"
-description = "This release package provides a comprehensive solution for users to view processed computer vision results from multiple RTSP streams using WebRTC technology. With this tool, users can easily add their computer vision solutions to the system and start analyzing the video streams in real-time.\u001b[D\u001b[D\u001b[D\u001b[\u001b[A\u001b[A\u001b[B\u001b[B"
+description = "This release package provides a comprehensive solution for users to view processed computer vision results from multiple RTSP streams using WebRTC technology. With this tool, users can easily add their computer vision solutions to the system and start analyzing the video streams in real-time."
 authors = ["luna <changyue74@gmail.com>"]
 license = "MIT license"
 readme = "README.md"
