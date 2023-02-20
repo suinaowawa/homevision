@@ -24,6 +24,16 @@ Perfect for home security, commercial surveillance, and beyond. It empowers you 
 - Customizable: Enables developers to test and experiment with computer vision solutions on real-time RTSP streams without the hassle of setting up their own infrastructure.
 
 ![Screenshot](diagram.png)
+# Dependencies
+
+- Linux/Windows
+- Python 3.9
+- WebRTC: aiortc
+- Web Framework: FastAPI, aiohttp
+- Testing: Pytest
+- Supported Algorithms: YOLOv8, YOLOvX (ONNX)
+
+(**Note**: These algorithm are just for demostration purposes, the package is mainly about to create a framework that you can easily integrate any computer vision algorithms and run with your home sercurity cameras.)
 
 # Installation
 
