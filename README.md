@@ -4,7 +4,7 @@
 
 ![Alt Text](https://thumbs.gfycat.com/PlasticOffensiveEider-size_restricted.gif)
 
-Welcome to HomeVision, unlock the full potential of your security cameras with YOLOv8 and WebRTC!
+Welcome to ***HomeVision***, unlock the full potential of your security cameras with **YOLOv8** and **WebRTC**!
 
 Transform your live video feeds into intelligent streams that detect, analyze, and respond to critical events in real-time.
 
